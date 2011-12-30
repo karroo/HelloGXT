@@ -1,0 +1,17 @@
+{
+	
+		records: [ {
+			"symbol" : "ABC",
+			"price" : 87.86,
+			"change" : -0.41
+		}, {
+			"symbol" : "DEF",
+			"price" : 62.79,
+			"change" : 0.49
+		}, {
+			"symbol" : "GHI",
+			"price" : 67.64,
+			"change" : 0.05
+		} ]
+	
+}
