@@ -11,7 +11,7 @@ import com.extjs.gxt.ui.client.widget.layout.FitLayout;
 public class MessageDetailWindow extends Window {
 
 	MessageDetailView messageDetailView;
-	MessagetTargetView messagetTargetView;
+	MessageTargetView messagetTargetView;
 	public MessageDetailWindow() {
 		setHeading("New Window");
 		setLayout(new FitLayout());
@@ -29,7 +29,7 @@ public class MessageDetailWindow extends Window {
 		
 		TabItem tbtmNewTabitem = new TabItem("New TabItem");
 		
-		messagetTargetView = new MessagetTargetView();
+		messagetTargetView = new MessageTargetView();
 		messagetTargetView.setHeaderVisible(false);
 		messagetTargetView.setHeading("");
 		tbtmNewTabitem.add(messagetTargetView);

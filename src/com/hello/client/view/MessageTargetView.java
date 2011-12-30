@@ -18,10 +18,10 @@ import com.extjs.gxt.ui.client.widget.layout.VBoxLayout.VBoxLayoutAlign;
 import com.extjs.gxt.ui.client.widget.layout.VBoxLayoutData;
 import com.extjs.gxt.ui.client.widget.toolbar.PagingToolBar;
 
-public class MessagetTargetView extends ContentPanel {
+public class MessageTargetView extends ContentPanel {
 
 	private ListStore<ModelData> store;
-	public MessagetTargetView() {
+	public MessageTargetView() {
 		VBoxLayout boxLayout = new VBoxLayout();
 		boxLayout.setVBoxLayoutAlign(VBoxLayoutAlign.STRETCH);
 		setLayout(boxLayout);
